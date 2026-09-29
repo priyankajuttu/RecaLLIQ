@@ -130,16 +130,6 @@ streamlit run app.py
 
 ---
 
-## 🎬 Demo Script (90-Second Walkthrough)
-
-1. **Open RecallIQ**: Select **NovaTech Systems** ($180k deal).
-2. **Turn Memory OFF**: Click `[ PREPARE ME ]`. Observe generic advice (review status, review budget).
-3. **Turn Hindsight Memory ON**: Click `[ PREPARE ME ]` again. Observe specific intelligence (CFO Sarah Chen cost focus, CTO Rahul Mehta milestone focus, rejected 6-week proposal warning, overdue final rollout timeline).
-4. **Expand Memory Trace**: Show exact recalled memories from Hindsight.
-5. **Show Preference Drift**: Highlight `Weekly → Bi-weekly executive updates`.
-6. **Show Do-Not-Repeat**: Highlight rejected 6-week implementation proposal.
-7. **Live Learning**: Go to **LIVE INTERACTION INGESTION**, enter new note, click `[ 🧠 REMEMBER THIS ]`. Re-run prep to show live adaptation.
-8. **Client Isolation**: Switch to **GreenGrid Energy**. Confirm 0 NovaTech data spillover.
 
 ---
 
