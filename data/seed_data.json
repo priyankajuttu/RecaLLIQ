@@ -1,0 +1,528 @@
+{
+  "clients": {
+    "novatech": {
+      "name": "NovaTech Systems",
+      "industry": "B2B SaaS / Enterprise Technology",
+      "deal_value": "$180,000 annual contract",
+      "stakeholders": [
+        {
+          "name": "Sarah Chen",
+          "role": "CFO",
+          "primary_concern": "Predictable cost boundaries"
+        },
+        {
+          "name": "Rahul Mehta",
+          "role": "CTO",
+          "primary_concern": "Implementation speed and technical milestones"
+        }
+      ],
+      "account_manager": "Maya Rao",
+      "interactions": [
+        {
+          "id": 1,
+          "date": "2026-08-05",
+          "type": "Discovery Call",
+          "summary": "Initial introduction and capability overview",
+          "content": "Meeting notes: Maya gave an overview of the platform. Rahul Mehta is looking for rapid implementation, emphasized that current manual processes are a bottleneck. Sarah Chen joined for the last 10 minutes to understand high-level ROI. Mentioned budget cycles run in Q4. Action Item: Maya to send technical documentation and arrange a deep dive.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Rahul needs fast implementation",
+            "Sarah budget cycle in Q4"
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2026-08-07",
+          "type": "Follow-up Email",
+          "summary": "Sent technical documentation",
+          "content": "Email thread: Hi Rahul, attached is the API documentation and architecture overview as discussed. Please let me know if your team has any questions prior to our technical deep dive next week. Best, Maya",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Technical documentation sent"
+          ]
+        },
+        {
+          "id": 3,
+          "date": "2026-08-12",
+          "type": "Technical Discussion",
+          "summary": "Technical deep dive with CTO",
+          "content": "Meeting notes: Walked through the API integration. Rahul seemed very excited about the webhooks capability. He noted that their current tech stack is primarily Python and React. We confirmed full compatibility. Rahul asked for a proposed implementation plan to present to Sarah.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Tech stack is Python and React",
+            "Full compatibility confirmed"
+          ]
+        },
+        {
+          "id": 4,
+          "date": "2026-08-14",
+          "type": "Pricing Discussion",
+          "summary": "Initial pricing presentation",
+          "content": "Meeting notes: Presented the $180,000 annual contract. Sarah Chen pushed back immediately, stating that predictable cost boundaries are her primary concern and $180k is at the absolute top of their potential range. She requested a detailed breakdown of implementation costs versus recurring licensing.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen"
+          ],
+          "key_facts": [
+            "Sarah pushed back on $180k price",
+            "Requested cost breakdown"
+          ]
+        },
+        {
+          "id": 5,
+          "date": "2026-08-18",
+          "type": "Implementation Planning",
+          "summary": "Proposed 6-week implementation plan",
+          "content": "Meeting notes: Presented the standard 6-week rollout plan. Rahul expressed serious concerns. He stated that a 6-week timeline is too slow for their Q3 objectives and they need core features live in 3 weeks. Maya committed to reviewing the timeline with the delivery team to see if phases can be accelerated.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "6-week plan proposed",
+            "Rahul thinks 6 weeks is too slow"
+          ]
+        },
+        {
+          "id": 6,
+          "date": "2026-08-20",
+          "type": "Follow-up Email",
+          "summary": "Pricing breakdown sent",
+          "content": "Email thread: Hi Sarah, here is the detailed breakdown of the $180,000 annual cost, separating the one-time implementation fees from the ongoing licensing. Note that we have applied a first-year discount to keep it within the boundary.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen"
+          ],
+          "key_facts": [
+            "Pricing breakdown provided"
+          ]
+        },
+        {
+          "id": 7,
+          "date": "2026-08-22",
+          "type": "Stakeholder Meeting",
+          "summary": "Review of pricing and implementation",
+          "content": "Meeting notes: Both Sarah and Rahul joined. The 6-week implementation plan was officially rejected. Rahul stated they cannot commit unless we can get core functionality live faster. Sarah reiterated that the pricing is still slightly too high given the timeline risks.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "6-week plan officially rejected",
+            "Pricing still a concern"
+          ]
+        },
+        {
+          "id": 8,
+          "date": "2026-08-25",
+          "type": "Proposal Review",
+          "summary": "Phased rollout proposed",
+          "content": "Meeting notes: Maya proposed a phased rollout: Phase 1 (core features) in 2.5 weeks, Phase 2 in 4 weeks. Rahul liked this approach. Sarah noted that this mitigates some risk and agreed to review revised pricing terms if this timeline is guaranteed in the contract.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Phased rollout proposed",
+            "Phase 1 in 2.5 weeks"
+          ]
+        },
+        {
+          "id": 9,
+          "date": "2026-08-27",
+          "type": "Follow-up Email",
+          "summary": "Contract updates",
+          "content": "Email thread: Hi team, attached is the updated proposal reflecting the phased rollout. Rahul, the SLAs for Phase 1 are included. Best, Maya",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Updated proposal sent"
+          ]
+        },
+        {
+          "id": 10,
+          "date": "2026-09-01",
+          "type": "Executive Review",
+          "summary": "Phased rollout accepted",
+          "content": "Meeting notes: Rahul confirmed that the technical team accepts the phased rollout plan. We agreed to move forward with this structure. They asked how we manage communication during implementation.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Phased rollout accepted"
+          ]
+        },
+        {
+          "id": 11,
+          "date": "2026-09-03",
+          "type": "Implementation Planning",
+          "summary": "Communication plan established",
+          "content": "Meeting notes: Established a weekly update preference for all stakeholders during the rollout. Maya committed to sending a comprehensive status report every Friday afternoon to both Sarah and Rahul.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Weekly update preference established",
+            "Friday afternoon cadence"
+          ]
+        },
+        {
+          "id": 12,
+          "date": "2026-09-08",
+          "type": "Technical Discussion",
+          "summary": "Phase 1 architecture review",
+          "content": "Meeting notes: Deep dive into Phase 1. Rahul approved the data mapping. No blockers identified.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Phase 1 data mapping approved"
+          ]
+        },
+        {
+          "id": 13,
+          "date": "2026-09-10",
+          "type": "Pricing Discussion",
+          "summary": "Final pricing negotiation",
+          "content": "Meeting notes: Sarah and Maya discussed final numbers. Maya offered a slight reduction in implementation fees to $175,000 total for year one to close the gap. Sarah agreed this fits their predictable cost boundaries.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen"
+          ],
+          "key_facts": [
+            "Pricing revised to $175,000"
+          ]
+        },
+        {
+          "id": 14,
+          "date": "2026-09-14",
+          "type": "Executive Review",
+          "summary": "Pricing formally accepted",
+          "content": "Meeting notes: Sarah formally accepted the $175,000 pricing structure. Legal review is the next step.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen"
+          ],
+          "key_facts": [
+            "Pricing formally accepted"
+          ]
+        },
+        {
+          "id": 15,
+          "date": "2026-09-17",
+          "type": "Follow-up Email",
+          "summary": "Weekly update sent",
+          "content": "Email thread: Hi Sarah and Rahul, here is the weekly update. Legal review is progressing. Phase 1 prep is on track.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Weekly update delivered"
+          ]
+        },
+        {
+          "id": 16,
+          "date": "2026-09-21",
+          "type": "Stakeholder Meeting",
+          "summary": "Check-in and preference change",
+          "content": "Meeting notes: Sarah noted that weekly updates are too frequent for her now that pricing is settled. She requested a preference change: weekly updates should transition to bi-weekly executive updates for her, but technical updates can remain weekly for Rahul.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Sarah prefers bi-weekly executive updates",
+            "Rahul retains weekly technical updates"
+          ]
+        },
+        {
+          "id": 17,
+          "date": "2026-09-23",
+          "type": "Follow-up Email",
+          "summary": "Confirming preference change",
+          "content": "Email thread: Hi Sarah, confirming I will shift your updates to bi-weekly starting next week. Rahul, I will keep you on the weekly technical distribution.",
+          "participants": [
+            "Maya Rao",
+            "Sarah Chen",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Update preference change confirmed"
+          ]
+        },
+        {
+          "id": 18,
+          "date": "2026-09-24",
+          "type": "Technical Discussion",
+          "summary": "Weekly technical sync",
+          "content": "Meeting notes: Rahul and Maya synced on API keys. Everything is ready for the kickoff.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "API keys synced",
+            "Ready for kickoff"
+          ]
+        },
+        {
+          "id": 19,
+          "date": "2026-09-25",
+          "type": "Stakeholder Meeting",
+          "summary": "Timeline sync",
+          "content": "Meeting notes: Discussed the final timeline. Rahul mentioned they have a hard October deadline for Phase 1 to align with a major product release on their end. The exact final timeline is still pending legal sign-off on the MSA.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Hard October deadline for Phase 1",
+            "Final timeline pending legal"
+          ]
+        },
+        {
+          "id": 20,
+          "date": "2026-09-27",
+          "type": "Follow-up Email",
+          "summary": "Legal status",
+          "content": "Email thread: Hi Rahul, just checking in on the MSA status so we can finalize the timeline for the October deadline. Let me know if legal needs anything from our end.",
+          "participants": [
+            "Maya Rao",
+            "Rahul Mehta"
+          ],
+          "key_facts": [
+            "Waiting on legal to finalize timeline"
+          ]
+        }
+      ],
+      "commitments": [
+        {
+          "description": "Revised pricing proposal",
+          "owner": "Our Team",
+          "date": "2026-08-19",
+          "status": "DONE"
+        },
+        {
+          "description": "Architecture document",
+          "owner": "Our Team",
+          "date": "2026-08-28",
+          "status": "DONE"
+        },
+        {
+          "description": "Final rollout timeline",
+          "owner": "Our Team",
+          "date": "2026-09-27",
+          "status": "OVERDUE"
+        }
+      ],
+      "preference_changes": [
+        {
+          "attribute": "Executive Updates",
+          "old_value": "Weekly updates",
+          "new_value": "Bi-weekly executive updates",
+          "date": "2026-09-19",
+          "context": "Technical updates remain weekly, executive updates moved to bi-weekly."
+        }
+      ],
+      "rejections": [
+        {
+          "proposal": "6-week implementation proposal",
+          "rejected_by": "Rahul Mehta & Sarah Chen",
+          "date": "2026-08-19",
+          "reason": "NovaTech rejected it because they needed a faster initial deployment and preferred a phased rollout."
+        }
+      ]
+    },
+    "greengrid": {
+      "name": "GreenGrid Energy",
+      "industry": "Clean Energy / Smart Grid",
+      "deal_value": "$95,000 annual contract",
+      "stakeholders": [
+        {
+          "name": "David Park",
+          "role": "Head of Security",
+          "primary_concern": "Security and compliance"
+        },
+        {
+          "name": "Lisa Wong",
+          "role": "VP Operations",
+          "primary_concern": "Operational efficiency"
+        }
+      ],
+      "account_manager": "Maya Rao",
+      "interactions": [
+        {
+          "id": 1,
+          "date": "2026-08-12",
+          "type": "Discovery Call",
+          "summary": "Initial introduction",
+          "content": "Meeting notes: Met with Lisa Wong. She is looking to improve operational efficiency across their smart grid monitoring systems. Deal size estimated at $95k. She mentioned David Park will need to heavily vet any solution for SOC 2 compliance.",
+          "participants": [
+            "Maya Rao",
+            "Lisa Wong"
+          ],
+          "key_facts": [
+            "Focus on operational efficiency",
+            "SOC 2 compliance is critical for David Park"
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2026-08-19",
+          "type": "Technical Discussion",
+          "summary": "Security deep dive",
+          "content": "Meeting notes: David Park joined. Very security-first mentality. He spent 45 minutes grilling us on data encryption at rest and in transit. We committed to providing our latest SOC 2 Type II report and architecture diagrams.",
+          "participants": [
+            "Maya Rao",
+            "David Park"
+          ],
+          "key_facts": [
+            "David focused on data encryption",
+            "Committed to sending SOC 2 report"
+          ]
+        },
+        {
+          "id": 3,
+          "date": "2026-08-26",
+          "type": "Stakeholder Meeting",
+          "summary": "Operations review",
+          "content": "Meeting notes: Lisa reviewed the workflow automation features. She is very pleased with the potential efficiency gains. Decision process is slower here due to security reviews.",
+          "participants": [
+            "Maya Rao",
+            "Lisa Wong"
+          ],
+          "key_facts": [
+            "Lisa pleased with workflow automation",
+            "Decision process is slow"
+          ]
+        },
+        {
+          "id": 4,
+          "date": "2026-09-02",
+          "type": "Proposal Review",
+          "summary": "Security compliance review",
+          "content": "Meeting notes: David reviewed the SOC 2 report. He had follow-up questions about our incident response plan. Maya provided the requested policies on the call.",
+          "participants": [
+            "Maya Rao",
+            "David Park"
+          ],
+          "key_facts": [
+            "Reviewed SOC 2 report",
+            "Incident response plan discussed"
+          ]
+        },
+        {
+          "id": 5,
+          "date": "2026-09-09",
+          "type": "Technical Discussion",
+          "summary": "Audit trails review",
+          "content": "Meeting notes: David specifically asked about granular audit trails for user actions. Maya demonstrated the audit logging features in the platform. David seemed satisfied.",
+          "participants": [
+            "Maya Rao",
+            "David Park"
+          ],
+          "key_facts": [
+            "Demonstrated audit logging features"
+          ]
+        },
+        {
+          "id": 6,
+          "date": "2026-09-16",
+          "type": "Stakeholder Meeting",
+          "summary": "Check-in and preferences",
+          "content": "Meeting notes: Lisa and David joined. We discussed communication preferences post-sale. David stated they prefer monthly executive updates rather than weekly, as their internal review cycles are longer.",
+          "participants": [
+            "Maya Rao",
+            "Lisa Wong",
+            "David Park"
+          ],
+          "key_facts": [
+            "Preference for monthly executive updates established"
+          ]
+        },
+        {
+          "id": 7,
+          "date": "2026-09-23",
+          "type": "Follow-up Email",
+          "summary": "Encryption details",
+          "content": "Email thread: Hi David, as requested, here is the whitepaper detailing our KMS integration and key rotation policies. Best, Maya",
+          "participants": [
+            "Maya Rao",
+            "David Park"
+          ],
+          "key_facts": [
+            "KMS whitepaper sent"
+          ]
+        },
+        {
+          "id": 8,
+          "date": "2026-09-25",
+          "type": "Follow-up Email",
+          "summary": "Decision process update",
+          "content": "Email thread: Hi Maya, we have completed our security review. I am passing the approval to Lisa to finalize the operational budget. - David",
+          "participants": [
+            "Maya Rao",
+            "David Park",
+            "Lisa Wong"
+          ],
+          "key_facts": [
+            "Security review completed",
+            "Passed to Lisa for budget approval"
+          ]
+        }
+      ],
+      "commitments": [
+        {
+          "description": "SOC 2 Type II report & architecture diagrams",
+          "owner": "Our Team",
+          "date": "2026-08-19",
+          "status": "DONE"
+        },
+        {
+          "description": "KMS integration whitepaper",
+          "owner": "Our Team",
+          "date": "2026-09-23",
+          "status": "DONE"
+        }
+      ],
+      "preference_changes": [
+        {
+          "attribute": "Executive Updates",
+          "old_value": "Weekly executive updates",
+          "new_value": "Monthly executive updates",
+          "date": "2026-09-16",
+          "context": "Internal review cycles are longer, preferred monthly touchpoints."
+        }
+      ],
+      "rejections": [
+        {
+          "proposal": "Weekly sync cadence",
+          "rejected_by": "David Park",
+          "date": "2026-09-16",
+          "reason": "Internal compliance process moves on monthly cycles."
+        }
+      ]
+    }
+  }
+}
