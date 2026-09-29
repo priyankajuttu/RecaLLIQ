@@ -37,7 +37,7 @@ Preference drifts, changed requirements, evolved positions. Use format: "OLD: X 
 ## ✅ OPEN COMMITMENTS
 Outstanding promises from both sides. Indicate owner and status.
 
-## ⚠️ OVERDUE COMMITMENTS
+## ⚠️ OVERDUE ITEMS
 Promises that are past due. Flag these prominently.
 
 ## 🚫 DO NOT REPEAT
@@ -65,7 +65,7 @@ Generate your response with these EXACT section headers (use markdown ## for eac
 ## 📊 RELATIONSHIP HISTORY
 ## 🔄 WHAT CHANGED
 ## ✅ OPEN COMMITMENTS
-## ⚠️ OVERDUE COMMITMENTS
+## ⚠️ OVERDUE ITEMS
 ## 🚫 DO NOT REPEAT
 ## 👤 STAKEHOLDER CONCERNS
 ## 📋 RECOMMENDED AGENDA
@@ -153,6 +153,36 @@ You have NO historical context about interactions with this client. Generate a g
 
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT_WITHOUT_MEMORY},
+            {"role": "user", "content": user_prompt},
+        ]
+        return self._generate(messages)
+
+    def ask_recalliq(self, query: str, memories: list, client_info: dict) -> str:
+        """Answer Q&A questions grounded in Hindsight relationship memory."""
+        client_desc = (
+            f"Client: {client_info.get('name', 'Unknown')}\n"
+            f"Industry: {client_info.get('industry', 'N/A')}\n"
+            f"Deal Value: {client_info.get('deal_value', 'N/A')}\n"
+        )
+        memories_text = "\n".join([f"• {m}" for m in memories]) if memories else "No specific memories retrieved."
+
+        system_prompt = """You are RecallIQ, an AI client relationship intelligence assistant.
+Your job is to provide direct, precise, factual answers to questions about a client relationship using Hindsight memory.
+Always ground your answers in the retrieved historical context. If something was rejected, changed, or promised, state dates and stakeholders if available.
+Keep your response professional, executive, and structured with concise bullet points and bold highlights."""
+
+        user_prompt = f"""{client_desc}
+
+User Question: {query}
+
+=== RETRIEVED HINDSIGHT MEMORIES ===
+{memories_text}
+=== END MEMORIES ===
+
+Provide a clear, intelligence-driven response grounded strictly in the recalled memories above."""
+
+        messages = [
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
         return self._generate(messages)

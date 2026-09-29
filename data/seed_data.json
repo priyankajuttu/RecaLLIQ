@@ -523,6 +523,153 @@
           "reason": "Internal compliance process moves on monthly cycles."
         }
       ]
+    },
+    "medaxis": {
+      "name": "MedAxis Healthcare",
+      "industry": "Healthcare & Medical Systems",
+      "deal_value": ",000 annual contract",
+      "stakeholders": [
+        {
+          "name": "Dr. Aris Thorne",
+          "role": "Chief Medical Officer",
+          "primary_concern": "HIPAA compliance and patient data privacy"
+        },
+        {
+          "name": "Elena Rostova",
+          "role": "Director of Operations",
+          "primary_concern": "EHR integration speed and workflow minimal friction"
+        }
+      ],
+      "account_manager": "Maya Rao",
+      "commitments": [
+        {
+          "description": "HIPAA BAA agreement & security audit documentation",
+          "owner": "Our Team",
+          "date": "2026-08-20",
+          "status": "DONE"
+        },
+        {
+          "description": "EHR sandbox integration review",
+          "owner": "Our Team",
+          "date": "2026-09-15",
+          "status": "DONE"
+        },
+        {
+          "description": "Custom Audit Logging Policy document",
+          "owner": "Our Team",
+          "date": "2026-09-28",
+          "status": "OVERDUE"
+        }
+      ],
+      "preference_changes": [
+        {
+          "attribute": "Sync Cadence",
+          "old_value": "Bi-weekly status calls",
+          "new_value": "Monthly compliance & operational reviews",
+          "date": "2026-09-18",
+          "context": "Medical governance board requested reduced call frequency due to clinic shift schedules."
+        }
+      ],
+      "rejections": [
+        {
+          "proposal": "Standard Cloud Multi-Tenant Data Storage",
+          "rejected_by": "Dr. Aris Thorne",
+          "date": "2026-08-25",
+          "reason": "MedAxis requires dedicated encrypted instance with HIPAA BAA compliance."
+        }
+      ],
+      "interactions": [
+        {
+          "id": 1,
+          "date": "2026-08-14",
+          "type": "Discovery Call",
+          "summary": "Initial healthcare platform discovery",
+          "content": "Meeting notes: Dr. Aris Thorne and Elena Rostova joined. Dr. Thorne stressed that HIPAA compliance and patient data privacy are non-negotiable. Elena highlighted that EHR workflow integration must not disrupt daily physician shifts. Maya committed to sending HIPAA BAA documentation.",
+          "participants": [
+            "Maya Rao",
+            "Dr. Aris Thorne",
+            "Elena Rostova"
+          ],
+          "key_facts": [
+            "HIPAA compliance mandatory",
+            "EHR integration speed key"
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2026-08-20",
+          "type": "Compliance Review",
+          "summary": "BAA and HIPAA review",
+          "content": "Meeting notes: Reviewed BAA agreement with Dr. Thorne. He requested custom audit logging policy details for BAA signoff.",
+          "participants": [
+            "Maya Rao",
+            "Dr. Aris Thorne"
+          ],
+          "key_facts": [
+            "BAA agreement reviewed",
+            "Audit logging details requested"
+          ]
+        },
+        {
+          "id": 3,
+          "date": "2026-08-25",
+          "type": "Architecture Review",
+          "summary": "Dedicated instance discussion",
+          "content": "Meeting notes: Dr. Thorne rejected standard multi-tenant cloud storage. Required dedicated isolated HIPAA instance. Maya confirmed platform supports dedicated VPC deployment.",
+          "participants": [
+            "Maya Rao",
+            "Dr. Aris Thorne",
+            "Elena Rostova"
+          ],
+          "key_facts": [
+            "Rejected multi-tenant cloud storage",
+            "Dedicated VPC required"
+          ]
+        },
+        {
+          "id": 4,
+          "date": "2026-09-08",
+          "type": "Technical Discussion",
+          "summary": "EHR Sandbox Integration",
+          "content": "Meeting notes: Elena reviewed EHR sandbox integration. Confirmed compatibility with Epic & Cerner HL7/FHIR APIs.",
+          "participants": [
+            "Maya Rao",
+            "Elena Rostova"
+          ],
+          "key_facts": [
+            "FHIR API compatibility confirmed"
+          ]
+        },
+        {
+          "id": 5,
+          "date": "2026-09-18",
+          "type": "Governance Review",
+          "summary": "Meeting cadence adjustment",
+          "content": "Meeting notes: Governance board moved status call preference from bi-weekly to monthly compliance reviews due to physician shift schedules.",
+          "participants": [
+            "Maya Rao",
+            "Dr. Aris Thorne",
+            "Elena Rostova"
+          ],
+          "key_facts": [
+            "Sync cadence moved to monthly"
+          ]
+        },
+        {
+          "id": 6,
+          "date": "2026-09-28",
+          "type": "Follow-up Email",
+          "summary": "Audit logging policy update",
+          "content": "Email thread: Hi Dr. Thorne, just checking in regarding the custom Audit Logging Policy document. Our legal team is finalizing the draft for your review. Best, Maya",
+          "participants": [
+            "Maya Rao",
+            "Dr. Aris Thorne"
+          ],
+          "key_facts": [
+            "Waiting on Audit Logging Policy"
+          ]
+        }
+      ]
     }
   }
 }
